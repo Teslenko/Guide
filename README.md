@@ -18,8 +18,12 @@ git push heroku master
 
 ----------------------------------------
 
-heroku addons:create heroku-postgresql:hobby-dev - создаем Базу Данных на Хероку
+Как создать БД на Хероку
 
-heroku run rails db:migrate -                      сделать миграцию 
+1. heroku addons:create heroku-postgresql:hobby-dev - создаем Базу Данных на Хероку
 
-heroku psql - зайти в базу данных на Хероку
+2. heroku run rails db:migrate                      - сделать миграцию 
+
+3. git push heroku master
+
+4. heroku psql                                      - зайти в базу данных на Хероку
