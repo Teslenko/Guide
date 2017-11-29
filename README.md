@@ -27,5 +27,7 @@ git push heroku master
 3. git push heroku master
 
 --------------------------------------------
+Если делаем scafold, то делаем в папке assets/stylesheets/scaffolds.scc -> &:hover{//background-color: #000;} ; body {//margin: 33px;}
+--------------------------------------------
 
 heroku psql                                      - зайти в базу данных на Хероку
