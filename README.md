@@ -26,4 +26,6 @@ git push heroku master
 
 3. git push heroku master
 
-4. heroku psql                                      - зайти в базу данных на Хероку
+--------------------------------------------
+
+heroku psql                                      - зайти в базу данных на Хероку
