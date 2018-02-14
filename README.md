@@ -17,7 +17,17 @@ git commit -am "make it better"
 git push heroku master
 
 ----------------------------------------
+ 
+ Стереть БД, но потом снова надо создать
 
+1. heroku pg:reset DATABASE - стереть БД, но потом снова надо создать
+
+2. heroku addons:create heroku-postgresql:hobby-de
+ 
+3. heroku run rails db:migrate  
+
+----------------------------------------
+ 
 Как создать БД на Хероку
 
 1. heroku addons:create heroku-postgresql:hobby-dev - создаем Базу Данных на Хероку
@@ -32,7 +42,9 @@ git push heroku master
 
 --------------------------------------------
 
-heroku psql                                      - зайти в базу данных на Хероку
+heroku pg:psql                                      - зайти в базу данных на Хероку
+
+SELECT * FROM users;
 
 ---------------------------------------------
 
