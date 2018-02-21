@@ -22,7 +22,7 @@ git push heroku master
 
 1. heroku pg:reset DATABASE - стереть БД, но потом снова надо создать
 
-2. heroku addons:create heroku-postgresql:hobby-de
+2. heroku addons:create heroku-postgresql:hobby-dev
  
 3. heroku run rails db:migrate  
 
