@@ -48,6 +48,16 @@ SELECT * FROM users;
 
 UPDATE candidates SET name = 'Ремень' WHERE ID = 1;
 
+DELETE FROM table_name WHERE condition;
+
 ---------------------------------------------
+
+чтобы зайти в БД sqlite3
+
+rails dbconsole
+
+SQLite>.tables
+
+SQLite> select * from posts
 
 bundle exec rake assets:precompile - Если не работает Автокомплит после Деплоя на Хероку, то вводим это в консоль
