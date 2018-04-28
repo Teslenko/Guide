@@ -27,6 +27,14 @@ git push heroku master
 3. heroku run rails db:migrate  
 
 ----------------------------------------
+
+Если надо поменять БД Хероку на другой
+
+git remote rm heroku
+
+$ git remote add heroku git@heroku.com:yourappname.git
+
+---------------------------------------- 
  
 Как создать БД на Хероку
 
