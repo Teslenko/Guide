@@ -66,4 +66,4 @@ bundle exec rake assets:precompile - Если не работает Автоко
 
 Если при запуске будет - A server is already running. Check /mnt/c/Evtushenko/tmp/pids/server.pid.
 
-rm /your_project_path/tmp/pids/server.pid
+rm tmp/pids/server.pid
