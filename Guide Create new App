@@ -6,4 +6,18 @@ rake db:create
  
 rails s 
 
+Generate Static Page:
 rails generate controller static_pages
+
+Create new page:
+app/views/static_pages/home.html.erb
+
+Modify the Static Pages in controller:
+app/controllers/static_pages_controller.rb
+class StaticPagesController < ApplicationController
+    def home
+    end
+end
+
+routes.rb
+root 'static_pages#home'
