@@ -1,7 +1,9 @@
- rails new <app name>
+rails new <app name>
  
- cd/<app name>  
+cd/<app name>  
  
- rake db:create
+rake db:create
  
- rails s 
+rails s 
+
+rails generate controller static_pages
