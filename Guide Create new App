@@ -1,0 +1,7 @@
+ rails new <app name>
+ 
+ cd/<app name>  
+ 
+ rake db:create
+ 
+ rails s 
